@@ -1,9 +1,165 @@
- <header>
-  <h1>YASH OFFICIAL</h1>
-  <p>GAMING CONTENT CREATOR</p>
-</header>
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<section>
-  <h2>Welcome to My Website</h2>
-  <p>Welcome to my gaming world!</p>
-</section>
+  <meta name="description" content="Welcome to YASH OFFICIAL - Gaming, Entertainment and Creator World.">
+
+  <title>YASH OFFICIAL | Gaming Creator</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">YASH<span>.</span></a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#social">Social Media</a>
+      <a href="#gaming">Gaming</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="tag">WELCOME TO MY WORLD</p>
+
+        <h1>YASH <span>OFFICIAL</span></h1>
+
+        <h2>GAMING & ENTERTAINMENT CREATOR</h2>
+
+        <p class="hero-text">
+          Welcome to my official website.
+          Explore my gaming content, videos,
+          social media and creator journey.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn primary"
+             href="https://www.youtube.com/@official.yash_96"
+             target="_blank" rel="noopener noreferrer">
+            ▶ YouTube Channel
+          </a>
+
+          <a class="btn secondary"
+             href="https://www.instagram.com/yash.official9616/"
+             target="_blank" rel="noopener noreferrer">
+            Instagram Profile
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="glow-circle">
+          <div class="controller">🎮</div>
+          <span>YASH</span>
+          <small>OFFICIAL</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <p class="tag">WHO AM I?</p>
+      <h2 class="section-title">ABOUT <span>ME</span></h2>
+
+      <div class="about-card">
+        <h3>YASH OFFICIAL</h3>
+        <p>
+          I am a gaming and entertainment content creator.
+          This is my official online space where you can
+          explore my videos, gaming content and social
+          media journey.
+        </p>
+        <p class="username">@yash.official9616</p>
+      </div>
+    </section>
+
+    <section class="social section" id="social">
+      <p class="tag">CONNECT WITH ME</p>
+      <h2 class="section-title">MY <span>SOCIALS</span></h2>
+
+      <div class="social-grid">
+
+        <a class="social-card youtube"
+           href="https://www.youtube.com/@official.yash_96"
+           target="_blank" rel="noopener noreferrer">
+          <div class="social-icon">▶</div>
+          <h3>YouTube</h3>
+          <p>@official.yash_96</p>
+          <span>VISIT CHANNEL ↗</span>
+        </a>
+
+        <a class="social-card instagram"
+           href="https://www.instagram.com/yash.official9616/"
+           target="_blank" rel="noopener noreferrer">
+          <div class="social-icon">◎</div>
+          <h3>Instagram</h3>
+          <p>@yash.official9616</p>
+          <span>FOLLOW PROFILE ↗</span>
+        </a>
+
+      </div>
+    </section>
+
+    <section class="gaming section" id="gaming">
+      <p class="tag">MY CONTENT</p>
+      <h2 class="section-title">GAMING <span>ZONE</span></h2>
+
+      <div class="gaming-card">
+        <div class="game-symbol">🎮</div>
+        <h3>GAMING VIDEOS</h3>
+        <p>
+          Watch my latest gaming videos,
+          highlights and entertainment content.
+        </p>
+        <a class="btn primary"
+           href="https://www.youtube.com/@official.yash_96"
+           target="_blank" rel="noopener noreferrer">
+          WATCH VIDEOS
+        </a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="tag">LET'S CONNECT</p>
+      <h2 class="section-title">CONTACT <span>ME</span></h2>
+
+      <p>
+        For creator-related enquiries,
+        connect with me through Instagram.
+      </p>
+
+      <a class="btn primary"
+         href="https://www.instagram.com/yash.official9616/"
+         target="_blank" rel="noopener noreferrer">
+        CONTACT ON INSTAGRAM
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <h3>YASH<span>.</span> OFFICIAL</h3>
+    <p>Gaming • Entertainment • Creator</p>
+    <p>© <span id="year"></span> YASH OFFICIAL. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
